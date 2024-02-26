@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "DepositFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "WithdrawFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SendFunds.sol": "SendFunds"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SendFunds.sol": {
+			"keccak256": "0x551e061f4ff398f4c08061ed1c535f5301d67862fb69f0f4d5e36fb1336dab32",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://316ef0ddbfefc4c3b419c5c825f346dce1c3180576ace4191df87f475ec4d042",
+				"dweb:/ipfs/QmNU7LAYgQtMv25mEsxN7QPMscksX6QaVh4ZTqjdKD7DD8"
+			]
+		}
+	},
+	"version": 1
+}
